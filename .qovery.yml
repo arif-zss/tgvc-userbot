@@ -1,0 +1,11 @@
+---
+application:
+  name: "songsbot"
+  project: "SONG_BOT"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-songsbot"
+  routes:
+  - application_name: "songsbot"
+    paths:
+    - "/*"
