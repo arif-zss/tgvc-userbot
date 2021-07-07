@@ -9,3 +9,6 @@ routers:
   - application_name: "songsbot"
     paths:
     - "/*"
+    build:
+  docker:
+    worker: Dockerfile
